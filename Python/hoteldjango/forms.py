@@ -1,17 +1,3 @@
-from django import forms
-from .models import Quarto, Cliente, Reserva
-
-class QuartoForm(forms.ModelForm):
-    class Meta:
-        model = Quarto
-        fields = ['numero', 'tipo', 'preco', 'descricao', 'disponivel']
-
-class ClienteForm(forms.ModelForm):
-    class Meta:
-        model = Cliente
-        fields = ['nome', 'email', 'telefone']
-
-class ReservaForm(forms.ModelForm):
-    class Meta:
-        model = Reserva
-        fields = ['quarto', 'cliente', 'data_entrada', 'data_saida', 'status']
+version https://git-lfs.github.com/spec/v1
+oid sha256:25247cbc09ab01f757176bbec25dd683c200e8024c93a1db0b938e5ab952cc98
+size 514

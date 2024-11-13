@@ -1,16 +1,3 @@
-"""
-WSGI config for todos project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/5.1/howto/deployment/wsgi/
-"""
-
-import os
-
-from django.core.wsgi import get_wsgi_application
-
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'todos.settings')
-
-application = get_wsgi_application()
+version https://git-lfs.github.com/spec/v1
+oid sha256:2fcedf5de4f37e9e82a6147e20585c56128b5e212ecd9e0fffb2aad48634609d
+size 403
